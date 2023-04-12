@@ -1,0 +1,80 @@
+:root {
+    --cor-de-fundo: #ffffff;
+    --cor-principal: rgb(16, 43, 163);
+    --cor-secundaria: rgb(223, 224, 169);
+    --amarelo: #e4d509;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+}
+
+.container__barra_principal {
+    background-color: var(--cor-secundaria);
+    height: 120px;
+}
+
+.container__botoes {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 5em;
+    text-decoration: none;
+}
+
+.container__botoes a {
+    color: var(--cor-principal);
+}
+
+.container__botoes1:hover {
+    background-color: #ffffff;
+    padding: 0 0 1em;
+}
+
+.container__botoes2:hover {
+    background-color: #ffffff;
+    padding: 0 0 1em;
+}
+
+.container__botoes3:hover {
+    background-color: #ffffff;
+    padding: 0 0 1em;
+}
+
+.container__botoes4:hover {
+    background-color: #ffffff;
+    padding: 0 0 1em;
+}
+
+.container__botoes5:hover {
+    background-color: #ffffff;
+    padding: 0 0 1em;
+}
+
+.container__botoes6:hover {
+    background-color: #ffffff;
+    padding: 0 0 1em;
+}
+
+ul,li {
+    list-style: none;
+}
+
+.container__logo {
+    float: left;
+    height: 77%;
+}
+
+.container__cadastrar {
+    display: inline-block;
+    justify-content: space-around;
+    margin-left: 87%;
+    background: rgb(241, 241, 214);
+    padding: 1em 1em;
+    border-radius: 20px;
+}
